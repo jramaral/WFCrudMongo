@@ -146,7 +146,7 @@
             // 
             // btn_salvar
             // 
-            this.btn_salvar.Location = new System.Drawing.Point(141, 452);
+            this.btn_salvar.Location = new System.Drawing.Point(127, 425);
             this.btn_salvar.Name = "btn_salvar";
             this.btn_salvar.Size = new System.Drawing.Size(84, 33);
             this.btn_salvar.TabIndex = 6;
@@ -156,7 +156,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(231, 452);
+            this.button2.Location = new System.Drawing.Point(217, 425);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(84, 33);
             this.button2.TabIndex = 6;
@@ -165,7 +165,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(321, 452);
+            this.button3.Location = new System.Drawing.Point(307, 425);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(84, 33);
             this.button3.TabIndex = 6;
@@ -209,12 +209,13 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 10;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Visible = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(948, 498);
+            this.ClientSize = new System.Drawing.Size(602, 469);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
